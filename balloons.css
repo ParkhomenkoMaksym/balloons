@@ -33,6 +33,7 @@ h1 {
     /* text: bold;  */
     display: block;
     padding: 0.75em 1em;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
 }
 .navigation a:hover {
     background-color: #C4E8B1;
@@ -65,3 +66,22 @@ a:hover {
     color: #72005f;
     font-style: italic;
 } 
+label, input, textarea {
+
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+form {
+    width: 30em;
+}
+.form-control {
+    margin-bottom: 1em;
+}
+textarea {
+    min-height: 10em;
+}
+.form-control input,
+.form-control textarea {
+    padding: 0.5em;
+}
