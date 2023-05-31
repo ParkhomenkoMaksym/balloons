@@ -1,10 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #555;
-    }
     
+    }
+
 h1 {
-    font-size: 3em;
     color: #609;
     font-weight: 400;
     font-family: "Courier New", Courier, monospace;
@@ -12,7 +12,10 @@ h1 {
     background-color: #f0e6f5;
     padding: 0.5em;
     margin-bottom: 0;
+    margin-top: 0;
+    
 }
+
 .navigation {
     background-color: #D9EECE;
     border-style: solid;
@@ -21,12 +24,29 @@ h1 {
     border-left-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
-    
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    list-style-type: none;
+   
+
 }
+@media screen and (min-width: 30em) {
+    .navigation {
+        display: flex;
+        
+         
+    }
+    h1{
+        font-size: 3em;
+        padding: 0.5em;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+  form {
+    width: 30em;
+}
+}
+
 .navigation a {
     text-decoration: none;
     color: #226800;
@@ -72,9 +92,7 @@ label, input, textarea {
     width: 100%;
     box-sizing: border-box;
 }
-form {
-    width: 30em;
-}
+
 .form-control {
     margin-bottom: 1em;
 }
