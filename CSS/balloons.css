@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+
+}
+
+h1 {
+    color: #609;
+    font-weight: 400;
+    font-family: "Courier New", Courier, monospace;
+    border: 1px solid #4c0072;
+    background-color: #f0e6f5;
+    padding: 0.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.navigation {
+    background-color: #D9EECE;
+    border-style: solid;
+    border-color: #4c0072;
+    border-top-width: 0px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+
+}
+
+@media screen and (min-width: 30em) {
+    .navigation {
+        display: flex;
+
+
+    }
+
+    h1 {
+        font-size: 3em;
+        padding: 0.5em;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    form {
+        width: 30em;
+    }
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #226800;
+    /* text: bold;  */
+    display: block;
+    padding: 0.75em 1em;
+    transition: background-color 1s ease-in-out, color 1s ease-in-out;
+}
+
+.navigation a:hover {
+    background-color: #C4E8B1;
+}
+
+h2 {
+    background-color: #f0e6f5;
+    font-style: italic;
+    font-size: 1.5em;
+    padding: o.25em 0.5em;
+}
+
+h3 {
+    border-bottom: 1px solid;
+    padding-bottom: 0.25em;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a:link {
+    color: #609;
+}
+
+a:visited {
+    color: #876399;
+}
+
+a:hover {
+    color: #339900;
+}
+
+.intro {
+    font-size: 1.5em;
+    color: #72005f;
+    font-style: italic;
+}
+
+label,
+input,
+textarea {
+
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-control {
+    margin-bottom: 1em;
+}
+
+textarea {
+    min-height: 10em;
+}
+
+.form-control input,
+.form-control textarea {
+    padding: 0.5em;
+}
